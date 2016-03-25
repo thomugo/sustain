@@ -11,3 +11,9 @@ Gemfile.lock
 
 # others
 *.swp
+*~
+/_includes/*~
+/_layouts/*~
+/_posts/*~
+/static/css/*~
+/static/js/*~

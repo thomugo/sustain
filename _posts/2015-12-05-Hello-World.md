@@ -11,7 +11,7 @@ tags:
 
 ## Hello World
 
-###This is my first to use jekyll to write a blog.
+###This is my first time to use jekyll to write a blog.
 
 
 
