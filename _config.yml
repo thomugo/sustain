@@ -1,15 +1,8 @@
 # top level stuff you probably don't need to touch
 highlighter: rouge
-kramdown:
-  input: GFM
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-  enable_coderay: true
-  syntax_highlighter: rouge
-  coderay:
-    coderay_line_numbers:  nil
+markdown: redcarpet
+redcarpet:
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
