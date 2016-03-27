@@ -23,7 +23,8 @@ strcpy_s(str1,20,"hello world");//三个参数
 strcpy_s(str,"hello");//两个参数但如果：char *str=new char[7];会出错：提示不支持两个参数  
 
 ```
-`第二个参数表示目标缓冲区大小，大于或等于源串的长度+1(存放结束符/0)，strcpy_s必须完全拷贝源串，若只想拷贝一部分源串则应该用strncpy_s函数。`
+`第二个参数表示目标缓冲区大小，大于或等于源串的长度+1(存放结束符/0)，strcpy_s必须完全拷贝源串，若只想拷贝一部分源串则应该用strncpy_s函数.`
+
 ```c++
 char * dst = (char *)malloc(10);  
 //strcpy_s(dst, 10, "Hello world!");  
@@ -33,6 +34,7 @@ strncpy(dst, "Hello world!", 10);
 所以从VS2005开始已经推出相应的安全版本——strcpy_s（末尾的s可能代表safe）。
 
 > 接口的定义改变如下：
+
 > ```c++
 char* strcpy(char* dest, const char* src) --> errno_t strcpy_s(char* dest, size_t numElems, const char* src)
 char* strcpy(char* dest, const char* src, size_t count) --> errno_t strcpy_s(char* dest, size_t numElems, const char* src, size_t count)
@@ -42,6 +44,7 @@ char* strcpy(char* dest, const char* src, size_t count) --> errno_t strcpy_s(cha
 
 ####strcpy和strncpy区别：
 第一种情况：
+
 ```c++
 char* p="how are you ?";
 char name[20]="ABCDEFGHIJKLMNOPQRS";
@@ -50,6 +53,7 @@ strncpy(name,p,sizeof(name))    //name改变为"how are you ?      "       ====>
 ```
 
 第二种情况：
+
 ```c++
 char* p="how are you ?";
 char name[20];
