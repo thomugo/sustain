@@ -1,0 +1,82 @@
+/*    TOC   */
+#markdown-toc:before {
+    content: "目录:";
+    font-weight: bold;
+}
+ul#markdown-toc {
+    list-style: none;
+    position: fixed;
+    padding: 0px;
+    left: 10px;
+    bottom: 200px;
+    border-radius: 0.3em;
+    box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    box-sizing: border-box;
+    border: #fff 0.5em solid;
+    background-color: white;
+    z-index:2;
+}
+/*--------end----------/
+
+
+
+/* -----表格样式----- */
+
+.mytable{
+    border:1px solid #007eff;
+    border-collapse:collapse;
+	margin: 20px auto 20px auto;
+	
+}
+
+.mytable caption{
+	font-weight:bold;
+	text-align:center;
+}
+
+.mytable th{
+    border:1px solid #429fff;
+    background-color:#d2e8ff;
+    font-weight:bold;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+}
+
+.mytable td{
+      border:1px solid #429fff;
+      text-align:left;
+      padding:4px;
+}
+
+.mytable tr:hover{
+    background-color:#c4e4fe;
+}
+/* -------end------- */
+
+/*blockquote*/
+/* -------------- */
+blockquote{ 
+	font-size: 16px; 
+	font-style: italic; 
+	margin: 0.25em 0; 
+	padding: 0.25em 40px; 
+	line-height: 1.45; 
+	position: relative; 
+	color: #383838; 
+	border:3px dashed #c1c1c1; 
+	background-color: #eeeeee;
+	z-index:1;
+}
+/* -------end------- */
+
+/*myimg*/
+img{
+    clear: both;
+	display: block;
+	margin:auto;
+}
+/*-----------end------------*/
+
