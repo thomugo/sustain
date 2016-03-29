@@ -1,3 +1,11 @@
+
+/*   title */
+#mytitle{
+ color: #00bb00;
+ text-align: center;
+}
+
+
 /*    TOC   */
 #markdown-toc:before {
     content: "目录:";
