@@ -1,6 +1,6 @@
 ---
 layout: post
-title: strcpy/strncpy/strcpy_s的比较 (Markdown)
+title: strcpy/strncpy/strcpy_s的比较 
 tags:
 - News
 - Tags
@@ -10,7 +10,7 @@ tags:
 * TOC
 {:toc}
 
-# strcpy/strncpy/strcpy_s的比较
+# strcpy/strncpy/strcpy_s的比较   {#mytitle}
 
 　　**strcpy**是依据源串的`'/0'`作为结束判断的，不会先检查copy的Buffer的Size，如果目标空间不够，就有BufferOverflow问题。请务必使用按照strncpy_s()、strcpy_s()、strncpy()等不同环境而准备的安全度很高的函数。
 　　**strcpy**函数，就象**gets**函数一样，它没有方法来保证有效的缓冲区尺寸，所以它只能假定缓冲足够大来容纳要拷贝的字符串。在程序运行时，这将导致不可预料的行为。

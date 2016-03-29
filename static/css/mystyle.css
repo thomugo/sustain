@@ -20,7 +20,7 @@ ul#markdown-toc {
     border-radius: 0.3em;
     box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
     box-sizing: border-box;
-    border: #fff 0.5em solid;
+    border: #00ee00 1px solid;
     background-color: white;
     z-index:2;
 }
@@ -81,7 +81,7 @@ blockquote{
 /* -------end------- */
 
 /*myimg*/
-img{
+.myimg{
     clear: both;
 	display: block;
 	margin:auto;

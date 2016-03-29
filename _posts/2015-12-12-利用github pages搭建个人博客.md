@@ -10,7 +10,6 @@ tags:
 * TOC
 {:toc}
 
-# 利用Ｇithub Pages搭建个人博客    {#mytitle}
 
 ## 简介
 
@@ -32,20 +31,19 @@ tags:
 1. 安装ruby环境   
 　　之所以要安装ruby，是因为jekyll是用ruby开发的。ubuntu14.04 LTS上默认是没有安装ruby环境的，需要自己安装。安装命令如下：
 
-```
-sudo apt-get install ruby1.9.1-dev
+``` haskell
+  sudo apt-get install ruby1.9.1-dev
 ```
 　　安装完成后，在终端中输入ruby -v，出现如下结果，则说明安装成功：
 
 ```
-ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-linux]
+  ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-linux]
 ```
 　　2. 安装nodejs环境   
 　　之所以要安装nodejs是因为ruby的gem管理需要用到nodejs环境，在完成ruby环境后，在终端中输入gem -v，会出现以下结果：
 
-```
-var/lib/gems/1.9.1/gems/execjs-2.5.2/lib/execjs/runtimes.rb:48:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable) 
-```
+> var/lib/gems/1.9.1/gems/execjs-2.5.2/lib/execjs/runtimes.rb:48:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable) 
+
 　　错误信息提示：找不到一个JavaScript环境，只要在终端中输入如下命令即可：
 
 ```

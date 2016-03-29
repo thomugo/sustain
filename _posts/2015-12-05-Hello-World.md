@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World (Markdown)
+title: Hello World 
 tags:
 - News
 - Tags
@@ -9,9 +9,8 @@ tags:
 ---
 
 
-## Hello World
 
-**This is my first time to use jekyll to write a blog, it's powerful and convenient, I love it!!!**
+## This is my first time to use jekyll to write a blog, it's powerful and convenient, I love it!!!
 
 
 

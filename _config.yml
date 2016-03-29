@@ -2,6 +2,7 @@
 markdown: kramdown
 kramdown:
   input: GFM
+  toc_levels: 2..3
   extensions:
     - autolink
     - footnotes
